@@ -1,0 +1,16 @@
+.ListMovie {
+    width: 100%;
+    height: auto;
+    padding: 0% 10%;
+    margin-bottom: 5%;
+}
+.Film{
+    width: 17vw;
+    height: 33vh;
+    float: left;
+    padding: 6% 0%;
+}
+.Film img {
+    width: 100%;
+    height: 100%;
+}
