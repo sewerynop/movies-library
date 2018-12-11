@@ -12,7 +12,7 @@
 }
 
 .nav > ul {
-    width: 100%;
+    width: 97%;
     height: auto;
     float: left;
     /* background: #020c3d; */
@@ -21,9 +21,13 @@
 .nav > ul > li > a {
     color: #e4e4e4;
     text-decoration: none;
-    padding: 25px 30px;
+    padding: 23px 30px;
 }
 
 .nav > ul > li > a:hover {
+    background: #05166d;
+}
+
+.active {
     background: #05166d;
 }

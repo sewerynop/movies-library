@@ -37,7 +37,7 @@ export default [
     },
     {
     id: 7,
-    title: "Mission Impossible Rogue Nation",
+    title: "Mission Impossible: Rogue Nation",
     poster: "assets/m_i_r_n.jpg",
     trailer: "https://www.youtube.com/watch?v=pXwaKB7YOjw"
     },

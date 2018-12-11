@@ -1,16 +1,19 @@
 .ListMovie {
     width: 100%;
     height: auto;
-    padding: 0% 10%;
-    margin-bottom: 5%;
+}
+.MainHeader {
+    width:100%;
+    text-align: center;
 }
 .Film{
-    width: 17vw;
-    height: 33vh;
+    width: 20%;
+    height: auto;
     float: left;
-    padding: 6% 0%;
+    padding-top: 1%;
+    padding-bottom: 3%;
 }
 .Film img {
     width: 100%;
-    height: 100%;
+    height: 27vw;
 }
