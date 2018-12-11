@@ -10,7 +10,6 @@ class App extends Component {
       <div className="App">
       <Navigation />
        <Movie data={this.props.data}/>
-       <Komponent />
       </div>
     );
   }
