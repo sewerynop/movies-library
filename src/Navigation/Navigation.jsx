@@ -18,16 +18,16 @@ class Navigation extends Component {
         return(
             <div className="nav">
                 <ul>
-                    <li><a onClick={() => this.handleClick("#home")} 
-                        className={this.state.addClass === "#home" ? "active" : ""}
-                        href="#home">HOME</a>
+                    <li><a onClick={() => this.handleClick("")} 
+                        className={this.state.addClass === "" ? "active" : ""}
+                        href=".">HOME</a>
                     </li>
                     <li><a onClick={() => this.handleClick("#action")} 
                         className={this.state.addClass === "#action" ? "active" : ""} 
                         href="#action">ACTION</a>
                     </li>
                     <li><a onClick={() => this.handleClick("#sifi")} 
-                        className={this.state.addClass === "sifi" ? "active" : ""} 
+                        className={this.state.addClass === "#sifi" ? "active" : ""} 
                         href="#sifi">SiFi</a>
                     </li>
                     <li><a onClick={() => this.handleClick("#more")} 
@@ -39,7 +39,5 @@ class Navigation extends Component {
         )
     }
 };
-
-
 
 export default Navigation;

@@ -9,9 +9,14 @@ class Movie extends Component {
         const ListOfFilms = data.map(el => {
             return(
             <div className="Film" key={el.id}>
-                <img src={el.poster} alt={el.title}/>
-                <h3>{el.title}</h3>
-                <button onClick={() => window.open(el.trailer)}>TRAILER</button>
+                <div className="FilmContent">
+                    <img className="image" src={el.poster} alt={el.title}/>
+                    <div className="middle">
+                        <div className="text">{el.title}</div>
+                    </div>
+                </div>
+                <h3 className="TitleMovie">{el.title}</h3>
+                    <button className="button" onClick={() => window.open(el.trailer)}>TRAILER</button>
             </div>
             )
         })
@@ -19,7 +24,9 @@ class Movie extends Component {
         return(
             <div className="ListMovie">
                 <Header />
-                {ListOfFilms}
+                <div className="AllMovies">
+                    {ListOfFilms}
+                </div>
             </div>
         )
     }

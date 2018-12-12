@@ -1,6 +1,6 @@
 import React from 'react';
 
 const Header = () => (
-    <h2 className="MainHeader">MOVIE LIST</h2>
+    <h1 className="MainHeader">Home movie collection</h1>
 );
 export default Header;
