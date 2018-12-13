@@ -26,6 +26,6 @@
     color: rgb(116, 89, 2);
 }
 
-.active {
-    color: aquamarine;
+.nav > ul > li > a.active {
+    color: rgb(116, 89, 2);
 }

@@ -6,7 +6,9 @@ class Movie extends Component {
     render() {
         
         const {data} = this.props;
-        const ListOfFilms = data.map(el => {
+        let ListOfFilms = "";
+        if (data.length > 0 ){
+        ListOfFilms =  data.map(el => {
             return(
             <div className="Film" key={el.id}>
                 <div className="FilmContent">
@@ -20,6 +22,7 @@ class Movie extends Component {
             </div>
             )
         })
+    }
 
         return(
             <div className="ListMovie">
